@@ -1,0 +1,62 @@
+i# Python
+*.pyc
+__pycache__/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+.installed.cfg
+*.pyd
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# JetBrains IDEs (PyCharm, etc.)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf/
+.idea/vcs.xml
+
+# Optional (depending on your project setup)
+# Environment variables
+.env
+.venv
+
+# Configuration files
+instance/
+config.py
+local_settings.py
+.vscode/
+
+# Data files (if applicable)
+*.csv
+*.json
+*.sqlite3
+
+# macOS specific
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
